@@ -1,0 +1,24 @@
+---
+---
+
+@import "reset";
+@import "built-ins";
+@import "cover";
+@import "footer";
+@import "content-container";
+
+@font-face {
+  font-family: "IBMPlexSerif-Regular";
+  src: url("/assets/fonts/IBMPlexSerif-Regular.ttf") format("truetype");
+}
+html,
+body {
+  font-family: "IBMPlexSerif-Regular", Fallback, sans-serif;
+}
+a {
+  color: #e46948;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

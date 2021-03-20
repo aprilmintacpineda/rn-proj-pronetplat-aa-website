@@ -1,0 +1,32 @@
+#cover-container {
+  background-color: #28003a;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+.space {
+  margin-top: 1em;
+}
+#download-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  width: 100vw;
+  .download-buttons {
+    margin: 1em;
+  }
+}
+@media screen and (max-width: 480px) {
+  #download-buttons-container {
+    padding-left: calc(1em - 50px);
+    padding-right: 1em;
+    .download-buttons {
+      margin: 0;
+    }
+  }
+}

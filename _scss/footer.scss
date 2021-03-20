@@ -1,0 +1,12 @@
+#site-footer {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  .rtl {
+    text-align: right;
+  }
+  .separator-left {
+    border-left: 1px solid #d0d1d5;
+    margin-left: 1em;
+    padding-left: 1em;
+  }
+}
