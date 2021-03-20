@@ -1,12 +1,21 @@
+@import "vars";
+
 #site-footer {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  .rtl {
-    text-align: right;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: $accent;
+  margin-top: 100px;
+  color: $white;
+  a {
+    display: block;
+    margin-bottom: 5px;
   }
-  .separator-left {
-    border-left: 1px solid #d0d1d5;
-    margin-left: 1em;
-    padding-left: 1em;
+  strong {
+    color: $white !important;
+  }
+  @media screen and (max-width: $smallDevice) {
+    .column {
+      margin-bottom: 20px;
+    }
   }
 }

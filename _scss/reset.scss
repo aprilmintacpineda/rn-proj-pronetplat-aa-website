@@ -112,14 +112,6 @@ section {
 *[hidden] {
   display: none;
 }
-body {
-  line-height: 1;
-}
-menu,
-ol,
-ul {
-  list-style: none;
-}
 blockquote,
 q {
   quotes: none;
@@ -134,4 +126,12 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+strong {
+  font-weight: bold;
+  color: #000;
+}
+i {
+  font-style: italic;
+  color: #000;
 }
