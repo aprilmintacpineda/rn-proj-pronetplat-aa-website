@@ -9,8 +9,7 @@
 
 @font-face {
   font-family: "IBMPlexSerif-Regular";
-  src: url("{{ site.baseurl }}/assets/fonts/IBMPlexSerif-Regular.ttf")
-    format("truetype");
+  src: url("/assets/fonts/IBMPlexSerif-Regular.ttf") format("truetype");
 }
 html,
 body {
