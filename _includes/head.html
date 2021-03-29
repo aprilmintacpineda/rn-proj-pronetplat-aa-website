@@ -84,13 +84,10 @@
   />
   <meta name="theme-color" content="#28003a" />
 
-  <!-- Primary Meta Tags -->
-  <meta
-    name="title"
-    content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
-  />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
 
-  <!-- Open Graph / Facebook -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ site.url }}" />
   <meta
@@ -99,16 +96,6 @@
   />
   <meta property="og:description" content="{{ site.description }}" />
   <meta property="og:image" content="{{ site.cover_image }}" />
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="{{ site.url }}" />
-  <meta
-    property="twitter:title"
-    content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
-  />
-  <meta property="twitter:description" content="{{ site.description }}" />
-  <meta property="twitter:image" content="{{ site.cover_image }}" />
 
   <!-- Preloads -->
   <link rel="preload" href="/assets/fonts/IBMPlexSerif-Regular.ttf" as="font" />
