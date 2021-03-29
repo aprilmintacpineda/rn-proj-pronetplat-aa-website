@@ -22,10 +22,10 @@ host: 0.0.0.0
 livereload: true
 
 author: April Mintac Pineda
-title: Entrepic
+title: Entrepic - Make professional connections
 email: hello@entrepic.com
 description: >- # this means to ignore newlines until "baseurl:"
-  We are striving to create an ecosystem where people can keep in touch with and build their network and achieve business or professional growth while having the guarantee that their privacy is protected because we believe that PRIVACY IS NOT OPTIONAL.
+  On a mission to create an ecosystem where people can keep in touch with and build their network and achieve business or professional growth while having the guarantee that their privacy is protected.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://entrepic.com # the base hostname & protocol for your site, e.g. http://example.com
 cover_image: /assets/images/cover-image.svg
