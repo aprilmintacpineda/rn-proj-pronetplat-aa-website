@@ -84,8 +84,6 @@
   />
   <meta name="theme-color" content="#28003a" />
 
-  <link rel="preload" href="/assets/fonts/IBMPlexSerif-Regular.ttf" as="font" />
-
   <!-- Primary Meta Tags -->
   <meta
     name="title"
@@ -114,7 +112,17 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/main.css" />
-  {% if page.styles %} {% for href in page.styles %}
-  <link rel="stylesheet" href="/assets/css/{{ href }}.css" />
+  {% if page.styles %} {% for filename in page.styles %}
+  <link rel="stylesheet" href="/assets/css/{{ filename }}.css" />
+  {% endfor %} {% endif %}
+
+  <!-- Preloads-->
+  <link rel="preload" href="/assets/fonts/IBMPlexSerif-Regular.ttf" as="font" />
+  <link rel="preload" href="/assets/images/logo.svg" as="image" />
+  <link rel="preload" href="/assets/images/brand-name.svg" as="image" />
+  <link rel="preload" href="/assets/images/brand-tag.svg" as="image" />
+
+  {% if page.images %} {% for href in page.images %}
+  <link rel="preload" href="/assets/images/{{ href }}" as="image" />
   {% endfor %} {% endif %}
 </head>
