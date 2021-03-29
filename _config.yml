@@ -28,7 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   On a mission to create an ecosystem where people can keep in touch with and build their network and achieve business or professional growth while having the guarantee that their privacy is protected.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://entrepic.com # the base hostname & protocol for your site, e.g. http://example.com
-cover_image: /assets/images/cover-image.svg
+cover_image: https://entrepic.com/assets/images/cover-image.svg
 # twitter_username: jekyllrb
 # github_username: jekyll
 
