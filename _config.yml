@@ -25,7 +25,7 @@ author: April Mintac Pineda
 title: Entrepic
 email: hello@entrepic.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Entrepic is a professional networking platform that enables you to keep in touch with and build your network with the guarantee that your privacy is being protected!
+  We are striving to create an ecosystem where people can keep in touch with and build their network and achieve business or professional growth while having the guarantee that their privacy is protected because we believe that PRIVACY IS NOT OPTIONAL.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://entrepic.com # the base hostname & protocol for your site, e.g. http://example.com
 cover_image: /assets/images/cover-image.svg
