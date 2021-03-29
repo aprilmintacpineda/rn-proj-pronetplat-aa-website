@@ -110,19 +110,23 @@
   <meta property="twitter:description" content="{{ site.description }}" />
   <meta property="twitter:image" content="{{ site.cover_image }}" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css" />
-  {% if page.styles %} {% for filename in page.styles %}
-  <link rel="stylesheet" href="/assets/css/{{ filename }}.css" />
-  {% endfor %} {% endif %}
-
-  <!-- Preloads-->
+  <!-- Preloads -->
   <link rel="preload" href="/assets/fonts/IBMPlexSerif-Regular.ttf" as="font" />
   <link rel="preload" href="/assets/images/logo.svg" as="image" />
   <link rel="preload" href="/assets/images/brand-name.svg" as="image" />
   <link rel="preload" href="/assets/images/brand-tag.svg" as="image" />
-
+  <!-- Preload page images -->
   {% if page.images %} {% for href in page.images %}
   <link rel="preload" href="/assets/images/{{ href }}" as="image" />
+  {% endfor %} {% endif %}
+  <!-- Preload page styles -->
+  {% if page.styles %} {% for filename in page.styles %}
+  <link rel="preload" href="/assets/css/{{ filename }}.css" as="image" />
+  {% endfor %} {% endif %}
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  {% if page.styles %} {% for filename in page.styles %}
+  <link rel="stylesheet" href="/assets/css/{{ filename }}.css" />
   {% endfor %} {% endif %}
 </head>
